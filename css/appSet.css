@@ -1,0 +1,82 @@
+.appSet-logo{
+    width: 100%;
+    position: absolute;
+    height: 4.1rem;
+    top: 1rem;
+    padding-top: 0.82rem;
+}
+.appSet-logo img{
+    width: 1.82rem;
+    height: 1.82rem;
+    margin: auto;
+    display: block;
+}
+.appSet-logo p{
+    color: #000;
+    font-size: 0.28rem;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/*应用设置列表*/
+.appSet-list{
+    width: 100%;
+    position: absolute;
+    top: 5.1rem;
+    padding: 0 0.2rem;
+}
+.appSet-list li{
+    height: 0.92rem;
+    line-height: 0.92rem;
+    margin-bottom: 1px;
+    background: #fff;
+    padding: 0 0.2rem;
+}
+.appSet-list li .l{
+    float: left;
+}
+.appSet-list li .r{
+    float: right;
+}
+.appSet-list li span{
+    font-size: 0.28rem;
+    color: #4E4E4E;
+}
+.appSet-list li i{
+    width: 0.44rem;
+    height: 0.44rem;
+    display: inline-block;
+    color: #B2B2B2;
+}
+.appSet-list li .icon1{
+    background: url("../img/icon/icon22.png") no-repeat left bottom;
+    background-size:100% auto ;
+}
+.appSet-list li .icon1.active{
+    background: url("../img/icon/icon23.png") no-repeat left bottom;
+    background-size: 100% auto;
+}
+
+/*版权所有*/
+.appSet-copyright{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+}
+.appSet-copyright .p1{
+    color: #03A9F4;
+    font-size: 0.3rem;
+    margin-bottom: 3px;
+}
+.appSet-copyright .p2{
+    color: #666;
+    font-size: 0.26rem;
+    margin: 0;
+}
+.appSet-copyright .p3{
+    color: #999;
+    font-size: 12px;
+    margin: 0;
+}

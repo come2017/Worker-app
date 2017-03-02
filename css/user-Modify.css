@@ -1,0 +1,65 @@
+.modify-form{
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+    padding: 0.4rem 0.2rem;
+}
+.modify-form .p-title{
+    height: 0.87rem;
+    line-height: 1rem;
+    font-size: 0.27rem;
+    margin: 0;
+    color: #484848;
+    padding-left: 0.1rem;
+}
+.modify-form input{
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.26rem;
+    margin: 0;
+    border: solid 1px #B7B7B7;
+    color: #B7B7B7;
+    border-radius: 6px;
+}
+.modify-form .modify-code{
+    width: 3rem;
+}
+.modify-form .img{
+    display: inline-block;
+    width: 3.38rem;
+    height: 0.78rem;
+    background: #B7B7B7;
+    float: right;
+}
+.modify-form .modify-btn{
+    width: 2.68rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    text-align: center;
+    color: #fff;
+    background: #FF9800;
+    font-size: 0.27rem;
+    padding: 0;
+    border: 0;
+    float: right;
+    border-radius: 6px;
+}
+.modify-xg{
+    position: absolute;
+    bottom: 1.1rem;
+    width: 100%;
+    height: 0.75rem;
+}
+.modify-xg button{
+    width: 6.3rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    padding: 0;
+    margin: auto;
+    display: block;
+    border: 0;
+    background: #2BB6F6;
+    text-align: center;
+    color: #fff;
+    font-size: 0.27rem;
+}

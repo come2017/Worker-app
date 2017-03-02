@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+        <meta name="misapplication-tap-highlight" content="no"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="MobileOptimized" content="320"/>
+        <title>包工头</title>
+        <link rel="stylesheet" href="../css/mui.min.css">
+        <link rel="stylesheet" href="../css/mui.picker.min.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/user-Modify.css">
+
+
+
+        <script>
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 + "px";
+        </script>
+    </head>
+    <body>
+
+        <div class="content">
+
+            <div>
+
+                <!--固定头部-->
+                <header class="head">
+                    <a class="head_left head_back"></a>
+                    <div class="head_center">修改手机号</div>
+                </header>
+
+                <!--修改手机号-->
+                <form class="modify-form">
+
+                    <ul>
+
+                        <li>
+                            <p class="p-title">原来的手机号</p>
+                            <div>
+                                <input type="text" placeholder="请输入你原来的手机号">
+                            </div>
+                        </li>
+
+                        <li>
+                            <p class="p-title">现在的手机号</p>
+                            <div>
+                                <input type="text" placeholder="请输入你现在的手机号">
+                            </div>
+                        </li>
+
+                        <li>
+                            <p class="p-title">图形验证码</p>
+                            <div>
+                                <input class="modify-code" type="text" placeholder="图形验证码">
+                                <img class="img">
+                            </div>
+                        </li>
+
+                        <li>
+                            <p class="p-title">手机验证码</p>
+                            <input class="modify-code" type="text" placeholder="手机验证码" >
+                            <button class="modify-btn">免费发送</button>
+                        </li>
+
+                    </ul>
+
+
+                </form>
+
+                <!--保存修改-->
+                <div class="modify-xg">
+                    <button>验证并修改</button>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </body>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/mui.picker.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/user-details.js"></script>
+</html>

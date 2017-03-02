@@ -1,0 +1,72 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+    font-family: "黑体"
+}
+.come_content{
+    background: #fff;
+    height: 100%;
+    overflow: hidden;
+}
+.come_bg{
+    height: 7.5rem;
+    background: url("../img/icon/icon1.png") no-repeat center bottom;
+    background-size: 6.22rem auto;
+}
+.come_firstWorker{
+    font-size: 0.47rem;
+    line-height: 0.47rem;
+    margin-top: 0.72rem;
+    color: #333;
+    text-align: center;
+}
+.come_full{
+    font-size: 0.74rem;
+    line-height: 0.74rem;
+    margin-top: 0.2rem;
+    color: #0E9DDD;
+    text-align: center;
+    font-weight: bold;
+}
+.come_link{
+    width: 100%;
+    height: 0.85rem;
+    display: -webkit-box;
+    display: -moz-box;
+    margin-top: 0.65rem;
+    -webkit-box-pack:center;
+    -moz-box-pack:center;
+    box-pack:center;
+}
+.come_link .btn_left , .come_link .btn_right{
+    height: 0.85rem;
+    width: 2.4rem;
+    border: solid 0.02rem #0E9DDD ;
+    color: #0E9DDD;
+    font-size: 0.4rem;
+    border-radius: 2px;
+    display: block;
+}
+.come_link .btn_left:active , .come_link .btn_right:active{
+    background: inherit;
+    color: #0E9DDD;
+}
+.come_link .btn_left{
+    margin-right: 0.33rem;
+}
+.come_link .btn_right{
+    margin-left: 0.33rem;
+}
+.come_hasUser{
+    color: #333333;
+    font-size: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    margin-top: 0.47rem;
+}
+.come_hasUser a{
+    color: #0E9DDD;
+}

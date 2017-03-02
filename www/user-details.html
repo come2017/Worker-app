@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+        <meta name="misapplication-tap-highlight" content="no"/>
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="MobileOptimized" content="320"/>
+        <title>包工头</title>
+        <link rel="stylesheet" href="../css/mui.min.css">
+        <link rel="stylesheet" href="../css/mui.picker.min.css">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/user.css">
+
+        <script>
+            document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 + "px";
+        </script>
+    </head>
+    <body>
+
+        <div class="content">
+
+            <div>
+
+                <!--固定头部-->
+                <header class="head">
+                    <a class="head_left head_back"></a>
+                    <div class="head_center">个人（商家）资料</div>
+                </header>
+
+                <!--用户信息-->
+                <div class="user_information">
+
+                    <div class="user_portrait">
+                        <img src="../img/icon/user.jpg">
+                    </div>
+
+                    <button class="user-details-setPortrait">设置头像</button>
+
+                </div>
+
+                <!--公司信息-->
+                <div class="user-details user-details-company">
+                    <ul>
+                        <li>公司信息</li>
+                        <li>
+                            <p>
+                                <span>公司信息：</span>
+                                <input type="text" value="某某旗舰公司">
+                            </p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>
+                                <span>地址：</span>
+                                <input type="text" value="北京市 海淀区 。。。">
+                            </p>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--联系人信息-->
+                <div class="user-details user-details-phone">
+                    <ul>
+                        <li>联系人信息</li>
+                        <li>
+                            <p>
+                                <span>联系人：</span>
+                                <input type="text" value="周XX">
+                            </p>
+                            <i></i>
+                        </li>
+                        <li>
+                            <p>
+                                <span>联系手机：</span>
+                                <input type="text" class="href_user-Modify" readonly value="18734259404（登陆账号）">
+                            </p>
+                            <i class="href_user-Modify"></i>
+                        </li>
+                        <li>
+                            <p>
+                                <span>地址：</span>
+                                <input type="text" value="北京市 海淀区 。。。">
+                            </p>
+                            <i></i>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </body>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/mui.picker.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/user-details.js"></script>
+</html>

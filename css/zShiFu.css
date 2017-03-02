@@ -1,0 +1,179 @@
+.zShifu_grid{
+    top:1rem;;
+}
+
+/*详细介绍*/
+.zShiFu_introduce{
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+}
+.zShiFu_introduce .p_title{
+    height: 0.82rem;
+    line-height: 0.9rem;
+    padding: 0 0.2rem;
+    color: #484848;
+    font-size: 0.27rem;
+    margin: 0;
+}
+.zShiFu_introduce>div{
+    border-top: solid 1px #CFCFCF;
+    border-bottom: solid 1px #CFCFCF;
+}
+.zShiFu_introduce .zShiFu-text1 , .zShiFu_introduce .zShiFu-text2{
+    width: 100%;
+    padding: 0.2rem;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    color: #999;
+    font-size: 0.2rem;
+}
+.zShiFu_introduce .zShiFu-text1{
+    height: 1rem;
+}
+.zShiFu_introduce .zShiFu-text2{
+    height: 2.36rem;
+}
+
+/*公司地址*/
+.zShiFu-company{
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+}
+.zShiFu-jg{
+    width: 100%;
+    height: 0.2rem;
+    border-bottom: solid 1px #C3C3C3;
+}
+.zShiFu-company li{
+    height: 0.96rem;
+    line-height: 0.96rem;
+    color: #4E4E4E;
+    border-bottom: solid 1px #C3C3C3;
+    background: #fff;
+    font-size: 0.27rem;
+    padding: 0 0.2rem;
+}
+.zShiFu-company li span{
+    float: left;
+}
+.zShiFu-company li input{
+    border: 0;
+    margin: 0;
+    height: 100%;
+    float: left;
+    width: 70%;
+}
+
+/*phone*/
+.zShiFu-phone{
+    width:100%;
+    position: absolute;
+    top: 1rem;
+}
+.zShiFu-phone li{
+    padding: 0 0.2rem;
+}
+.zShiFu-phone .p_title{
+    height: 0.9rem;
+    line-height: 1rem;
+    color: #484848;
+    font-size: 0.27rem;
+    margin: 0;
+}
+.zShiFu-phone input{
+    margin: 0;
+    height: 0.78rem;
+}
+.zShiFu-phone .zShiFu-ipt{
+    width: 3rem;
+    float: left;
+}
+.zShiFu-phone .zShiFu-btn{
+    width: 2.68rem;
+    height: 0.78rem;
+    background: #FF9800;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    float: right;
+}
+
+/*信息发布成功*/
+.zShiFu-success{
+    width: 100%;
+    position: absolute;
+    top: 4.1rem;
+}
+.zShiFu-success .p_title{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-size: 0.35rem;
+    color: #68BAB2;
+    text-align: center;
+    margin: 0;
+}
+.zShiFu-success .p_title i{
+    width: 0.56rem;
+    height: 0.56rem;
+    display: inline-block;
+    background: url("../img/icon/icon39.png") no-repeat center;
+    background-size: 100% auto;
+    margin-top: -0.08rem;
+    margin-right: 5px;
+}
+.zShiFu-success .p_content{
+    width: 60%;
+    margin: auto;
+    color: #484848;
+    font-size: 0.28rem;
+}
+.zShiFu-success .p_content a{
+    color: #03A9F4;
+}
+
+/*继续操作*/
+.zShiFu-continue{
+    width: 100%;
+    height: 0.96rem;
+    position: absolute;
+    bottom: 1.74rem;
+    text-align: center;
+}
+.zShiFu-continue button{
+    display: inline-block;
+    height: 0.96rem;
+    background: #fff;
+    border: solid 1px #03A9F4;
+    color: #03A9F4;
+    width: auto;
+    padding: 0 0.5rem;
+}
+.zShiFu-continue button:first-child{
+    margin-right: 0.5rem;
+}
+
+/*找工作*/
+.zJob-2{
+    top: 2.9rem;
+}
+
+/*工作范围*/
+.zJob-range{
+    width: 100%;
+    height: 1.9rem;
+    position: absolute;
+    top: 1rem;
+}
+.zJob-range li{
+    height: 0.95rem;
+    line-height: 0.95rem;
+    color: #484848;
+    font-size: 0.27rem;
+    padding: 0 0.2rem;
+}
+.zJob-range li:first-child{
+    border-bottom: solid 1px #C3C3C3;
+}

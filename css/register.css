@@ -1,0 +1,345 @@
+.content{
+    background: #E6E6E6;
+}
+.register_step{
+    width: 100%;
+    height: 1.95rem;
+    background: #fff;
+    position: absolute;
+    top: 1rem;
+    padding: 0 0.4rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    box-align:center;
+    text-align: center;
+}
+.register_step.active1{
+    background: #fff url("../img/icon/icon10.png") no-repeat center 0.19rem ;
+    background-size: 6.34rem auto;
+}
+.register_step.active2{
+    background: #fff url("../img/icon/icon12.png") no-repeat center 0.19rem ;
+    background-size: 6.34rem auto;
+}
+.register_step.active3{
+    background: #fff url("../img/icon/icon13.png") no-repeat center 0.19rem ;
+    background-size: 6.34rem auto;
+}
+.register_step>div{
+    width: 1.16rem;
+    height: 1.44rem;
+}
+.register_step>div>i{
+    width: 1.01rem;
+    height: 1.01rem;
+    display: block;
+    margin: auto;
+}
+.register_step>div>span{
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.26rem;
+    color: #666;
+}
+.register_step>div.active span{
+    color: #333;
+}
+
+/*九宫格*/
+.register_grid{
+    overflow: hidden;
+    position: absolute;
+    top: 2.95rem;
+    background: #fff;
+    width: 100%;
+}
+.register_grid_2{
+    top: 3.85rem;
+}
+.register_grid>li{
+    width: 33.3333%;
+    height:2.6rem;
+    float: left;
+    border-top: solid 1px #E6E6E6;
+    border-right: solid 1px #E6E6E6;
+    text-align: center;
+    position: relative;
+}
+.register_grid>li span{
+    color: #4E4E4E;
+    font-size: 0.27rem;
+    display: block;
+    margin-top: 1.6rem;
+}
+.register_grid_2>li span{
+    line-height: 2.6rem;
+    margin-top: 0;
+    font-size: 0.28rem;
+}
+.register_grid>li i{
+    position: absolute;
+    width: 0.44rem;
+    height: 0.44rem;
+    right: 0.16rem;
+    top: 0.16rem;
+    background: url("../img/icon/icon22.png") no-repeat center;
+    background-size: 100% auto;
+}
+.register_grid>li.active i{
+    background: url("../img/icon/icon23.png") no-repeat center;
+    background-size: 100% auto;
+}
+.register_grid>li:nth-of-type(3n+0){
+    border-right: 0;
+}
+.register_grid_icon1{
+    background: url("../img/icon/icon14.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon2{
+    background: url("../img/icon/icon15.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon3{
+    background: url("../img/icon/icon16.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon4{
+    background: url("../img/icon/icon17.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon5{
+    background: url("../img/icon/icon18.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon6{
+    background: url("../img/icon/icon19.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon7{
+    background: url("../img/icon/icon20.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+.register_grid_icon8{
+    background: url("../img/icon/icon21.png") no-repeat center 0.3rem;
+    background-size: 1.28rem 1.28rem;
+}
+
+/*提交按钮 - 下一步*/
+.register_last{
+    position: absolute;
+    width: 100%;
+    height: 0.74rem;
+    bottom: 0.5rem;
+}
+.register_sub , .register_sub2 , .register_sub3 , .register_sub4 , .register_sub5 , .register_sub6{
+    width: 6.3rem;
+    height: 0.74rem;
+    line-height: 0.74rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.27rem;
+    background: #2BB6F6;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+    padding: 0;
+    border: 0;
+}
+
+/*选着服务地区*/
+.register_service{
+    position: absolute;
+    top: 2.95rem;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-top: solid 1px #E6E6E6;
+    background: #fff;
+    padding: 0 0.2rem;
+    font-size: 0.3rem;
+}
+.register_service li{
+    float: left;
+    color: #333;
+    margin-right: 5px;
+}
+.register_service_btn{
+    float: right;
+    color: #259B24;
+    border: 0;
+    padding: 0;
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+}
+.register_service_btn:active{
+    background: #fff;
+}
+
+/*form表单提交*/
+.register_form{
+    padding: 0.6rem 0.3rem 0.2rem;
+    position: absolute;
+    top: 2.95rem;
+    width: 100%;
+}
+.register_form li{
+    padding-top: 0.12rem;
+    padding-bottom: 0.34rem;
+    position: relative;
+}
+.register_form_title{
+    color: #333;
+    font-size: 0.27rem;
+    line-height: 0.27rem;
+    margin: 0;
+    margin-bottom: 0.18rem;
+    text-indent: 0.1rem;
+}
+.re_phone[type=text]{
+    width: 100%;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.27rem;
+    border-radius: 5px;
+}
+.re_alert{
+    font-size: 0.22rem;
+    color: #E85043;
+    position: absolute;
+    bottom: 0;
+    text-indent: 0.1rem;
+}
+.re_alert a{
+    color: #03A9F4;
+}
+.re_verCode[type=text]{
+    width: 3rem;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.27rem;
+    border-radius: 5px;
+}
+.register_form_phone .img{
+    float: right;
+    width: 3.38rem;
+    height: 0.78rem;
+    border-radius: 5px;
+    background: #ddd;
+}
+.re_phCode[type=text]{
+    width: 3rem;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.27rem;
+    border-radius: 5px;
+}
+.re_send{
+    width: 2.68rem;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    padding: 0;
+    float: right;
+    border:0;
+    color: #fff;
+    font-size: 0.27rem;
+    text-align: center;
+    background: #FF9800;
+}
+
+/*公司地址*/
+.register_company_target{
+    position: absolute;
+    top: 3.85rem;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-top: solid 1px #E6E6E6;
+    background: #fff;
+    padding: 0 0.2rem;
+    font-size: 0.3rem;
+}
+.register_company_target ul{
+    height: 100%;
+}
+.register_company_target li{
+    float: left;
+    margin-right: 5px;
+    height: 100%;
+}
+.register_company_target li:last-child{
+    float: none;
+    margin-left: 1.6rem;
+}
+.register_company_target input[type=text]{
+    border: 0;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+/*详细地址*/
+.register_detailed{
+    position: absolute;
+    top: 4.75rem;
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-top: solid 1px #E6E6E6;
+    background: #fff;
+    padding: 0 0.2rem;
+    font-size: 0.3rem;
+}
+.register_detailed ul{
+    height: 100%;
+}
+.register_detailed li{
+    float: left;
+    margin-right: 5px;
+    height: 100%;
+}
+.register_detailed li:last-child{
+    float: none;
+    margin-left: 1.6rem;
+}
+.register_detailed input[type=text]{
+    border: 0;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+/*登陆页面 logo*/
+.login_logo{
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    height: 3rem;
+    background: url("../img/icon/icon25.png") no-repeat center 0.62rem;
+    background-size: 1.82rem auto;
+}
+.login_form{
+    top: 4rem;
+}
+.login_last{
+    bottom: 1.11rem;
+}
+.login_alert{
+    width: 100%;
+    font-size: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    bottom: 0.54rem;
+    text-align: center;
+    color: #333;
+}
+.login_alert a{
+    color: #03A9F4;
+}

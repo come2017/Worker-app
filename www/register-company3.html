@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="misapplication-tap-highlight" content="no"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>
+    <title>包工头</title>
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/mui.picker.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.2 + "px";
+    </script>
+</head>
+<body>
+
+<div class="content">
+
+    <div>
+
+        <!--固定头部-->
+        <header class="head">
+            <a class="head_left head_back"></a>
+            <div class="head_center">商家注册</div>
+            <a class="head_right head_search"><i class="mui-icon mui-icon-search"></i></a>
+        </header>
+
+        <!--注册步骤ing-->
+        <div class="register_step active3">
+            <div class="active">
+                <i class="register_step_icon1"></i>
+                <span>招工范围</span>
+            </div>
+            <div>
+                <i class="register_step_icon2"></i>
+                <span>公司信息</span>
+            </div>
+            <div>
+                <i class="register_step_icon3"></i>
+                <span>注册信息</span>
+            </div>
+        </div>
+
+        <!--表单验证 手机注册-->
+        <form class="register_form">
+
+            <ul>
+
+                <li>
+                    <p class="register_form_title">手机号（以将作为登录帐号）</p>
+                    <div class="register_form_phone">
+                        <input class="re_phone" type="text" placeholder="请输入您的常用手机号">
+                    </div>
+                    <p class="re_alert">您的手机号已经是包工头会员了，<a class="href_login" href="javascript:void (0);">立即登陆</a></p>
+                </li>
+
+                <li>
+                    <p class="register_form_title">图形验证码</p>
+                    <div class="register_form_phone">
+                        <input class="re_verCode" type="text" placeholder="图形验证码"><img class="img">
+                    </div>
+                    <p class="re_alert">图形验证码错误</p>
+                </li>
+
+                <li>
+                    <p class="register_form_title">手机验证码</p>
+                    <div class="register_form_phone">
+                        <input class="re_phCode" type="text" placeholder="手机验证码">
+                        <button class="re_send">免费发送</button>
+                    </div>
+                    <p class="re_alert">手机验证码错误</p>
+                </li>
+
+            </ul>
+
+        </form>
+
+
+
+
+        <!--提交按钮-->
+        <div class="register_last">
+            <button class="register_sub2">立即注册</button>
+        </div>
+
+        <!--#286090 337AB7-->
+
+
+    </div>
+
+
+
+</div>
+
+</body>
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/mui.min.js"></script>
+<script src="../js/mui.picker.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/register.js"></script>
+</html>
