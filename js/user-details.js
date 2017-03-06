@@ -15,18 +15,7 @@
         //链接
         _href : function(){
 
-            $(".href_user-Modify").on("tap" , function(){
-
-                //打开修改手机页面
-                mui.openWindow({
-                    url: 'user-Modify.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href_user-Modify").on("tap" , clicked )
 
         }
 

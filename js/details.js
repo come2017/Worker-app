@@ -17,7 +17,9 @@
         //滚动条
         _scroll : function(){
 
-
+			mui('.mui-scroll-wrapper').scroll({
+                indicators : false
+            });
         }
 
     }

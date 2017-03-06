@@ -136,7 +136,7 @@
     position: absolute;
     width: 100%;
     height: 0.74rem;
-    bottom: 0.5rem;
+    bottom: 0.3rem;
 }
 .register_sub , .register_sub2 , .register_sub3 , .register_sub4 , .register_sub5 , .register_sub6{
     width: 6.3rem;
@@ -329,14 +329,14 @@
     top: 4rem;
 }
 .login_last{
-    bottom: 1.11rem;
+    bottom: 0.8rem;
 }
 .login_alert{
     width: 100%;
     font-size: 0.24rem;
     height: 0.24rem;
     position: absolute;
-    bottom: 0.54rem;
+    bottom: 0.3rem;
     text-align: center;
     color: #333;
 }

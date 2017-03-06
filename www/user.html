@@ -27,13 +27,13 @@
 
                 <!--固定头部-->
                 <header class="head">
-                    <a class="head_left head_back"></a>
+                    <a class="head_left mui-back head_back "></a>
                     <div class="head_center">个人中心</div>
                     <a class="head_right head_set"></a>
                 </header>
 
                 <!--用户信息-->
-                <div class="user_information href_user-details">
+                <div class="user_information href_user-details" data-href="user-details.html">
 
                     <div class="user_portrait">
                         <img src="../img/icon/user.jpg">
@@ -54,14 +54,14 @@
                 <div class="user_list">
 
                     <ul class="user_menu">
-                        <li class="href_personalData">
+                        <li class="href_personalData" data-href="personalData.html">
                             <i class="user_menu_icon1"></i>
                             <span>个人信息</span>
                             <div class="user_trans">
                                 <i class="mui-icon mui-icon-arrowright"></i>
                             </div>
                         </li>
-                        <li class="href-collection">
+                        <li class="href-collection" data-href="collection.html">
                             <i class="user_menu_icon2"></i>
                             <span>我的收藏</span>
                             <div class="user_trans">
@@ -73,14 +73,14 @@
                     <div class="user_padding"></div>
 
                     <ul class="user_menu">
-                        <li class="href-zJob1">
+                        <li class="href-zJob1" data-href="zJob-1.html">
                             <i class="user_menu_icon3"></i>
                             <span>找活</span>
                             <div class="user_trans">
                                 <i class="mui-icon mui-icon-arrowright"></i>
                             </div>
                         </li>
-                        <li class="href-zShiFu1">
+                        <li class="href-zShiFu1" data-href="zShiFu-1.html">
                             <i class="user_menu_icon4"></i>
                             <span>找师傅</span>
                             <div class="user_trans">
@@ -92,7 +92,7 @@
                     <div class="user_padding"></div>
 
                     <ul class="user_menu">
-                        <li class="href-appSet">
+                        <li class="href-appSet" data-href="appSet.html">
                             <i class="user_menu_icon5"></i>
                             <span>应用设置</span>
                             <div class="user_trans">
@@ -121,22 +121,6 @@
                     <button id="out">退出登录</button>
                 </div>
 
-                <!--固定菜单-->
-                <footer class="foot">
-                    <a class="foot_l href_index">
-                        <i></i>
-                        <span>首页</span>
-                    </a>
-                    <a class="foot_c">
-                        <i></i>
-                        <span>发布</span>
-                    </a>
-                    <a class="foot_r active">
-                        <i></i>
-                        <span>个人中心</span>
-                    </a>
-                </footer>
-
 
             </div>
 
@@ -151,4 +135,5 @@
     <script src="../js/mui.picker.min.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/user.js"></script>
+    
 </html>

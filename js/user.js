@@ -20,81 +20,22 @@
         _href : function(){
 
 
-            $(".href_personalData").on("tap" , function(){
-
-                //打开个人资料页面
-                mui.openWindow({
-                    url: 'personalData.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            });
+            $(".href_personalData").on("tap" , clicked);
 
             //打开用户详情页
-            $(".href_user-details").on("tap" , function(){
-
-                mui.openWindow({
-                    url: 'user-details.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href_user-details").on("tap" , clicked)
 
             //找师傅
-            $(".href-zShiFu1").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-1.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zShiFu1").on("tap" , clicked);
 
             //找工作
-            $(".href-zJob1").on("tap" , function(){
-
-                mui.openWindow({
-                    url: 'zJob-1.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href-zJob1").on("tap" , clicked)
 
             //我的收藏
-            $(".href-collection").on("tap" , function(){
-
-                mui.openWindow({
-                    url: 'collection.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href-collection").on("tap" , clicked)
 
             //应用设置
-            $(".href-appSet").on("tap" , function(){
-
-                mui.openWindow({
-                    url: 'appSet.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href-appSet").on("tap" , clicked)
 
         },
 

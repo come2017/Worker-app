@@ -1,0 +1,628 @@
+{
+  "index.html": {
+    "resources": [
+      "img/icon/icon1.png",
+      "js/jquery-3.1.1.min.js",
+      "js/mui.min.js",
+      "css/come.css",
+      "css/mui.min.css",
+      "js/come.js",
+      "js/common.js",
+      "js/mui.picker.min.js",
+      "css/mui.picker.min.css",
+      "js/update.js"
+    ],
+    "refer": [
+      "www/register-company1.html",
+      "www/register-worker1.html",
+      "www/index-index.html"
+    ]
+  },
+  "www/register-company1.html": {
+    "resources": [
+      "img/icon/icon18.png",
+      "img/icon/icon20.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/register.js",
+      "img/icon/icon19.png",
+      "img/icon/icon16.png",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "css/common.css",
+      "img/icon/icon22.png",
+      "img/icon/icon17.png",
+      "css/mui.min.css",
+      "img/icon/icon10.png",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon15.png",
+      "img/icon/icon14.png",
+      "img/icon/icon21.png",
+      "js/jquery-3.1.1.min.js",
+      "js/mui.min.js",
+      "img/icon/icon23.png"
+    ],
+    "refer": [
+      "www/register-company2.html"
+    ]
+  },
+  "www/register-worker1.html": {
+    "resources": [
+      "img/icon/icon18.png",
+      "img/icon/icon20.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/register.js",
+      "img/icon/icon19.png",
+      "img/icon/icon16.png",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "css/common.css",
+      "js/mui.min.js",
+      "img/icon/icon22.png",
+      "img/icon/icon17.png",
+      "css/mui.min.css",
+      "img/icon/icon10.png",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon15.png",
+      "img/icon/icon14.png",
+      "img/icon/icon21.png"
+    ],
+    "refer": [
+      "www/register-worker2.html"
+    ]
+  },
+  "www/index-index.html": {
+    "resources": [
+      "img/icon/icon6.png",
+      "img/icon/icon3.png",
+      "img/icon/icon5.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "css/index.css",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "css/common.css",
+      "js/mui.min.js",
+      "img/icon/banner1.jpg",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon9.png",
+      "img/icon/icon2.png",
+      "js/index.js",
+      "img/icon/icon8.png",
+      "img/icon/icon7.png",
+      "img/icon/icon4.png"
+    ],
+    "refer": [
+      "www/lookingWork.html",
+      "www/lookingMaster.html",
+      "www/user.html",
+      "www/release.html"
+    ]
+  },
+  "www/lookingWork.html": {
+    "resources": [
+      "css/lookingWork.css",
+      "js/looking-worker.js",
+      "js/city.js",
+      "img/icon/icon28.png",
+      "img/icon/icon8.png",
+      "img/icon/icon26.png",
+      "img/icon/banner2.png",
+      "img/icon/icon4.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon6.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "js/mui.min.js",
+      "img/icon/icon7.png",
+      "img/icon/icon5.png",
+      "img/icon/icon9.png"
+    ],
+    "refer": [
+      "www/details_job.html",
+      "www/release.html",
+      "www/user.html",
+      "www/index-index.html"
+    ]
+  },
+  "www/lookingMaster.html": {
+    "resources": [
+      "css/lookingWork.css",
+      "js/looking-worker.js",
+      "js/city.js",
+      "img/icon/icon28.png",
+      "img/icon/icon8.png",
+      "img/icon/icon26.png",
+      "img/icon/banner2.png",
+      "img/icon/icon4.png",
+      "css/mui.min.css",
+      "css/common.css",
+      "img/icon/icon7.png",
+      "css/mui.picker.min.css",
+      "img/icon/icon6.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "js/mui.min.js",
+      "img/icon/icon5.png",
+      "img/icon/icon9.png"
+    ],
+    "refer": [
+      "www/details_worker.html",
+      "www/user.html",
+      "www/release.html",
+      "www/index-index.html"
+    ]
+  },
+  "www/register-worker3.html": {
+    "resources": [
+      "www/register-worker3.html",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon13.png",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "fonts/mui.ttf",
+      "js/register.js",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": [
+      "www/register-worker3.html",
+      "www/login.html"
+    ]
+  },
+  "www/register-company2.html": {
+    "resources": [
+      "img/icon/icon12.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": [
+      "www/register-company3.html"
+    ]
+  },
+  "www/register-company3.html": {
+    "resources": [
+      "img/icon/icon13.png",
+      "css/mui.min.css",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "fonts/mui.ttf",
+      "js/register.js",
+      "css/register.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": [
+      "www/register-worker3.html",
+      "www/login.html"
+    ]
+  },
+  "www/login.html": {
+    "resources": [
+      "css/mui.min.css",
+      "img/icon/icon25.png",
+      "img/icon/icon24.png",
+      "css/common.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "js/register.js"
+    ],
+    "refer": [
+      "www/index-index.html",
+      "www/register-worker1.html"
+    ]
+  },
+  "www/details_worker.html": {
+    "resources": [
+      "img/icon/img1.jpg",
+      "img/icon/icon36.png",
+      "js/details.js",
+      "img/icon/icon37.png",
+      "css/details.css",
+      "img/icon/img3.png",
+      "img/icon/icon38.png",
+      "img/icon/img2.jpg",
+      "img/icon/img4.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "css/common.css",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "img/icon/img3.jpg",
+      "img/icon/img4.jpg"
+    ],
+    "refer": []
+  },
+  "www/personalData.html": {
+    "resources": [
+      "css/personalData.css",
+      "css/mui.min.css",
+      "js/personalData.js",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": []
+  },
+  "www/user.html": {
+    "resources": [
+      "img/icon/user.jpg",
+      "css/index.css",
+      "img/icon/icon35.png",
+      "js/user.js",
+      "img/icon/icon31.png",
+      "img/icon/icon32.png",
+      "css/user.css",
+      "img/icon/icon27.png",
+      "img/icon/icon34.png",
+      "img/icon/icon30.png",
+      "img/icon/icon29.png",
+      "img/icon/icon33.png",
+      "img/icon/icon28.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon5.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "js/mui.min.js",
+      "img/icon/icon9.png",
+      "img/icon/icon4.png",
+      "img/icon/icon6.png",
+      "img/icon/icon7.png",
+      "img/icon/icon8.png"
+    ],
+    "refer": [
+      "www/personalData.html",
+      "www/user-details.html",
+      "www/collection.html",
+      "www/zJob-1.html",
+      "www/zShiFu-1.html",
+      "www/appSet.html",
+      "www/index-index.html"
+    ]
+  },
+  "www/register-worker2.html": {
+    "resources": [
+      "img/icon/icon12.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon23.png"
+    ],
+    "refer": [
+      "www/register-worker3.html"
+    ]
+  },
+  "www/details_job.html": {
+    "resources": [
+      "img/icon/img1.jpg",
+      "img/icon/icon36.png",
+      "js/details.js",
+      "img/icon/icon37.png",
+      "css/details.css",
+      "img/icon/img3.png",
+      "img/icon/icon38.png",
+      "img/icon/img2.jpg",
+      "img/icon/img4.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "js/mui.min.js",
+      "img/icon/img3.jpg",
+      "img/icon/img4.jpg"
+    ],
+    "refer": []
+  },
+  "www/user-details.html": {
+    "resources": [
+      "css/common.css",
+      "js/user-details.js",
+      "css/mui.min.css",
+      "css/user.css",
+      "css/mui.picker.min.css",
+      "img/icon/user.jpg",
+      "img/icon/icon5.png",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "www/user-Modify.html"
+    ]
+  },
+  "www/user-Modify.html": {
+    "resources": [
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/user-details.js",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "css/user-Modify.css"
+    ],
+    "refer": []
+  },
+  "www/collection.html": {
+    "resources": [
+      "img/icon/icon26.png",
+      "img/icon/banner2.png",
+      "css/collection.css",
+      "js/collection.js",
+      "css/mui.min.css",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": []
+  },
+  "www/zJob-1.html": {
+    "resources": [
+      "img/icon/icon18.png",
+      "img/icon/icon20.png",
+      "img/icon/icon22.png",
+      "img/icon/icon17.png",
+      "js/register.js",
+      "css/register.css",
+      "img/icon/icon19.png",
+      "js/zShiFu.js",
+      "css/zShiFu.css",
+      "img/icon/icon16.png",
+      "img/icon/icon15.png",
+      "img/icon/icon14.png",
+      "img/icon/icon21.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "css/common.css",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": [
+      "www/zJob-2.html"
+    ]
+  },
+  "www/zJob-2.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/register.css",
+      "css/zShiFu.css",
+      "img/icon/icon23.png"
+    ],
+    "refer": [
+      "www/zJob-3.html"
+    ]
+  },
+  "www/zJob-3.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "www/zJob-4.html"
+    ]
+  },
+  "www/zJob-4.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "www/zJob-5.html"
+    ]
+  },
+  "www/zJob-5.html": {
+    "resources": [
+      "img/icon/icon39.png",
+      "css/mui.min.css",
+      "css/common.css",
+      "js/register.js",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "js/zShiFu.js",
+      "css/zShiFu.css",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "www/lookingWork.html",
+      "www/zJob-1.html"
+    ]
+  },
+  "www/zShiFu-1.html": {
+    "resources": [
+      "img/icon/icon18.png",
+      "img/icon/icon20.png",
+      "js/register.js",
+      "img/icon/icon19.png",
+      "js/zShiFu.js",
+      "img/icon/icon16.png",
+      "css/common.css",
+      "img/icon/icon22.png",
+      "css/mui.min.css",
+      "img/icon/icon17.png",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "css/zShiFu.css",
+      "img/icon/icon14.png",
+      "img/icon/icon15.png",
+      "img/icon/icon21.png",
+      "js/mui.picker.min.js",
+      "fonts/mui.ttf",
+      "js/jquery-3.1.1.min.js",
+      "js/common.js",
+      "img/icon/icon28.png",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "www/zShiFu-2.html"
+    ]
+  },
+  "www/zShiFu-2.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "css/zShiFu.css"
+    ],
+    "refer": [
+      "www/zShiFu-3.html"
+    ]
+  },
+  "www/zShiFu-3.html": {
+    "resources": [
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "fonts/mui.ttf",
+      "js/register.js",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "js/zShiFu.js",
+      "css/zShiFu.css"
+    ],
+    "refer": [
+      "www/zShiFu-4.html"
+    ]
+  },
+  "www/zShiFu-4.html": {
+    "resources": [
+      "css/common.css",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "css/zShiFu.css"
+    ],
+    "refer": [
+      "www/zShiFu-5.html"
+    ]
+  },
+  "www/zShiFu-5.html": {
+    "resources": [
+      "img/icon/icon39.png",
+      "css/common.css",
+      "css/mui.min.css",
+      "css/register.css",
+      "css/mui.picker.min.css",
+      "css/zShiFu.css"
+    ],
+    "refer": [
+      "www/lookingWork.html",
+      "www/zShiFu-1.html"
+    ]
+  },
+  "www/appSet.html": {
+    "resources": [
+      "css/appSet.css",
+      "css/common.css",
+      "css/mui.min.css",
+      "img/icon/icon25.png",
+      "css/mui.picker.min.css",
+      "img/icon/icon23.png",
+      "js/appSet.js",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "www/about.html"
+    ]
+  },
+  "www/about.html": {
+    "resources": [
+      "css/appSet.css",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "img/icon/icon28.png",
+      "js/mui.picker.min.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "img/icon/icon25.png",
+      "css/mui.picker.min.css",
+      "js/appSet.js"
+    ],
+    "refer": []
+  },
+  "www/release.html": {
+    "resources": [
+      "css/release.css",
+      "css/common.css",
+      "js/release.js",
+      "css/mui.min.css",
+      "css/mui.picker.min.css",
+      "img/icon/icon40.png",
+      "js/common.js",
+      "js/jquery-3.1.1.min.js",
+      "js/mui.picker.min.js",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "www/zJob-1.html",
+      "www/zShiFu-1.html"
+    ]
+  }
+}

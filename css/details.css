@@ -1,14 +1,17 @@
+.details_scroll{
+	padding-top: 1rem;
+}
+.details-box{
+	padding-bottom: 0.84rem;
+}
 /*找工作介绍*/
 .details_introduce{
-    height: 1.8rem;
     background: #fff;
     width: 100%;
-    position: absolute;
-    top: 1rem;
-    padding: 0.4rem 0.2rem 0;
+    padding: 0.4rem 0.2rem 0.2rem;
 }
 .details_introduce p{
-    font-size: 0.24rem;
+    font-size: 0.3rem;
     color: #333;
     padding: 0;
     line-height: 0.4rem;
@@ -16,7 +19,7 @@
 }
 .details_introduce .div1{
     height: 0.24rem;
-    margin-top: 0.03rem;
+    margin-top: 0.1rem;
     font-size: 0.2rem;
     color: #666;
 }
@@ -31,36 +34,26 @@
 .details_jg1 , .details_jg2{
     height: 0.22rem;
     width: 100%;
-    position: absolute;
-}
-.details_jg1{
-    top: 2.8rem;
-}
-.details_jg2{
-    top: 6.44rem;
 }
 
 /*联系方式*/
 .details_contact{
-    height: 3.42rem;
     width: 100%;
-    position: absolute;
-    top: 3.02rem;
     background: #fff;
     padding: 0 0.2rem;
 }
 .details_con_title{
-    height: 0.96rem;
+    padding: 0.2rem 0;
     border-bottom: solid 1px #C3C3C3;
     position: relative;
 }
 .details_con_title .d_t{
-    font-size: 0.24rem;
+    font-size: 0.3rem;
     color: #333;
     margin-bottom: 0;
 }
 .details_con_title .d_a{
-    font-size: 0.22rem;
+    font-size: 0.26rem;
     color: #666;
     margin: 0;
 }
@@ -69,33 +62,37 @@
     color: #000;
     position: absolute;
     right: 0;
-    top: 0.28rem;
+    top: 0.34rem;
+    
 }
 .details_con_phone{
-    height: 0.75rem;
-    line-height: 0.74rem;
+    padding: 0.2rem 0;
     border-bottom: solid 1px #C3C3C3;
+    position: relative;
 }
 .details_con_phone span:first-child{
     font-size: 0.24rem;
     color: #666;
     margin-right: 10px;
+    vertical-align: middle;
 }
 .details_con_phone span:last-child{
     font-size: 0.24rem;
     color: #333;
+    vertical-align: middle;
 }
 .details_con_phone a{
     width: 0.75rem;
     height: 0.75rem;
     display: block;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     background: url("../img/icon/icon36.png") no-repeat center;
     background-size: 0.4rem 0.4rem;
 }
 .details_con_range{
-    height: 0.85rem;
-    line-height: 0.85rem;
+    padding: 0.2rem 0;
     border-bottom: solid 1px #C3C3C3;
 }
 .details_con_range span:first-child{
@@ -108,7 +105,7 @@
     color: #333;
 }
 .details_con_address{
-    line-height: 0.86rem;
+    padding: 0.2rem 0;
 }
 .details_con_address span:first-child{
     font-size: 0.24rem;
@@ -122,12 +119,9 @@
 
 /*任务*/
 .details_task{
-    height: 1.54rem;
-    padding: 0 0.2rem;
+    padding: 0.3rem 0.2rem;
     width: 100%;
-    position: absolute;
     background: #fff;
-    top: 6.66rem;
     padding-top: 0.1rem;
 }
 .details_task p:first-child{
@@ -138,14 +132,14 @@
 .details_task p:last-child{
     color: #333;
     font-size: 0.27rem;
+    margin: 0;
+    padding-top: 0.1rem;
 }
 
 /*图片*/
 .details_photo{
     width: 100%;
     height: 2.22rem;
-    position: absolute;
-    top: 8.2rem;
     padding: 0.2rem 0;
 }
 .details_photo_img li{
@@ -166,13 +160,13 @@
 /*举报*/
 .details_jb{
     height: 1.3rem;
-    position: absolute;
-    bottom: 1rem;
     padding: 0 0.2rem;
     width: 100%;
+    line-height: 1.3rem;
+    background: #fff;
 }
 .details_jb a{
-    float: right;
+	display: inline-block;
     width: 1.6rem;
     height: 0.6rem;
     line-height: 0.6rem;
@@ -190,7 +184,7 @@
     height: 0.84rem;
     position: absolute;
     bottom: 0;
-    left: 0;
+    z-index: 3;
 }
 .details_foot a{
     width: 50%;

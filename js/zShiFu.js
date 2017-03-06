@@ -18,111 +18,31 @@
         _href : function(){
 
             //发布页
-            $(".href-zShifu-1").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-1.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href-zShifu-1").on("tap" , clicked)
 
-            $(".href-zShifu-2").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-2.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href-zShifu-2").on("tap" , clicked)
 
-            $(".href-zShifu-3").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-3.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href-zShifu-3").on("tap" , clicked)
 
-            $(".href-zShifu-4").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-4.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href-zShifu-4").on("tap" , clicked)
 
             //验证成功
-            $(".href-zShifu-5").on("tap" , function(){
-                mui.openWindow({
-                    url: 'zShiFu-5.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zShifu-5").on("tap" , clicked);
 
             //找工作
-            $(".href-zJob-2").on("tap", function(){
-                mui.openWindow({
-                    url: 'zJob-2.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zJob-2").on("tap", clicked);
 
             //找工作
-            $(".href-zJob-3").on("tap", function(){
-                mui.openWindow({
-                    url: 'zJob-3.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zJob-3").on("tap", clicked);
 
             //找工作
-            $(".href-zJob-4").on("tap", function(){
-                mui.openWindow({
-                    url: 'zJob-4.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zJob-4").on("tap", clicked);
 
             //找工作
-            $(".href-zJob-5").on("tap", function(){
-                mui.openWindow({
-                    url: 'zJob-5.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zJob-5").on("tap", clicked);
 
             //
-            $(".href-zJob-1").on("tap", function(){
-                mui.openWindow({
-                    url: 'zJob-1.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".href-zJob-1").on("tap", clicked);
 
 
         },

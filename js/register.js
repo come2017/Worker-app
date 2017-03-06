@@ -24,76 +24,22 @@
         _href : function(){
 
             //打开页面register-worker2.html
-            $(".register_sub").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'register-worker2.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".register_sub").on("tap" , clicked)
 
             //打开页面register-worker3.html
-            $(".register_sub2").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'register-worker3.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".register_sub2").on("tap" , clicked)
 
             //打开页面register-company2.html
-            $(".register_sub3").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'register-company2.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            });
+            $(".register_sub3").on("tap" , clicked);
 
             //打开页面register-company3.html
-            $(".register_sub4").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'register-company3.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".register_sub4").on("tap" , clicked)
 
             //立即登陆 - 打开登陆页面
-            $(".href_login").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'login.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href_login").on("tap" , clicked)
 
             //login页面 - 立即注册
-            $(".href_register_worker1").on("tap" , function(){
-                //打开关于页面
-                mui.openWindow({
-                    url: 'register-worker1.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-            })
+            $(".href_register_worker1").on("tap" , clicked)
         },
 
         //点击事件

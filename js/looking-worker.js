@@ -47,32 +47,10 @@
         _href : function(){
 
             //找工作详情页
-            $(".look_job").on("tap" , function(){
-
-                //打开找工作详情页面
-                mui.openWindow({
-                    url: 'details_job.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".look_job").on("tap" , clicked)
 
             //找师傅详情页
-            $(".look_worker").on("tap" , function(){
-
-                //打开找工作详情页面
-                mui.openWindow({
-                    url: 'details_worker.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".look_worker").on("tap" , clicked)
 
         },
 

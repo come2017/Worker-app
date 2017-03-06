@@ -16,17 +16,7 @@
         _href : function(){
 
             //关于我们
-            $(".href-about").on("tap" , function(){
-
-                mui.openWindow({
-                    url: 'about.html',
-                    id:'come',
-                    show:{
-                        aniShow:"slide-in-left"//页面显示动画，默认为”slide-in-right“；
-                    }
-                });
-
-            })
+            $(".href-about").on("tap" , clicked )
 
         }
 
